@@ -1,0 +1,150 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+.navbar-brand {
+  height: auto;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+#searchInput {
+  width: 150px;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar.navbar-fixed-top {
+  transition: all .5s .1s;
+}
+.navbar-default {
+  background-color: #white;
+}
+.navbar-default.navbar-transparent {
+  background-color: #white;
+}
+.navbar-transparent .navbar-nav>li>a {
+  color: #777;
+}
+.navbar-transparent {
+  padding-top: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+@media (max-width: 767px) {
+  .dropdown-menu {
+    background-color: white;
+  }
+}
+.navbar-fixed-top .navbar-collapse {
+  max-height: 100%;
+}
+.welcomeSection.full-image {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+h2 {
+  letter-spacing: 0.02em;
+  margin: 0.4em 0;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.card {
+  margin-bottom: 30px;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+@media (min-width: 768px){
+  .card.add-animation.animate {
+    opacity: 1;
+    transition: all 0.7s ease-out 0.3s;
+  }
+}
+@media (min-width: 768px){
+  .card.add-animation {
+    opacity: 0;
+    transition: all 0.7s ease-out 0.3s;
+  }
+}
+.member img{
+  width: 200px;
+}
+.row {
+  margin-top: 15px;
+}
+footer {
+  background-color: #f5f5f5;
+  padding-bottom: 42px;
+}
+@media (min-width: 992px){
+  .list-social {
+    margin-top: 42px;
+  }
+}
+@media (min-width: 470px){
+  .modalwidth {
+    width: 400px;
+  }
+}
+.well{
+  background-color: #ffffff;
+}
+.content{
+  top: 20%;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px !important;
+  padding: 9px 18px;
+  border: 1px solid;
+}
+.btn.btn-fill {
+  color: #FFFFFF;
+  background-color: #888888;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn {
+  border-radius: 2px;
+  border-width: 1px;
+}
+.checkbox{
+  margin-left: 20px;
+}
+.division {
+  float: none;
+  margin: 0 auto 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.line {
+  border-top: 1px solid #DFDFDF;
+  position: absolute;
+  top: 10px;
+  width: 34%;
+}
+.line.l {
+  left: 0;
+}
+.line.r {
+  right: 0;
+}
+footer a{
+  color: #777;
+}
+.page-header{
+  margin: inherit;
+}

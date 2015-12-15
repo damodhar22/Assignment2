@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CREATIVE TIM</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="includes/css/styles.css">
+
+</head><!-- end head -->
+
+<body>
+
+  <!-- Welcome screen -->
+  <div class="welcomeSection full-image text-center">
+    <img src="img/welIMG.jpg" alt="..." />
+    <div class="row">
+      <div class="content text-center col-md-12">
+        <h1>Creative Tim</h1>
+        <h3>Awesome Bootstrap freebies and templates to build better websites</h3>
+      </div>
+    </div><!-- end of welcome mesg -->
+  </div><!-- end of welcome screen -->
+
+  <main class="container" id="main">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
+      <div class="container">
+
+        <!-- containing the width -->
+        <div class="col-md-10 col-md-offset-1">
+
+          <!--  Nav bar header -->
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-target="#mynavbar" aria-expanded="false" data-toggle="collapse" type="button">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">CREATIVE TIM</a>
+          </div>
+
+          <!-- Nav bar list -->
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Services
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="portfolio.html">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="#">SEO</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">
+                    More Services
+                  </li>
+                  <li>
+                    <a href="#">Content Creation</a>
+                  </li>
+                  <li>
+                    <a href="#">Social Media Marketing</a>
+                  </li>
+                </ul><!-- end dropdown-menu -->
+              </li>
+            </ul><!-- end nav list-->
+
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" id="searchInput">
+              </div>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </form><!-- end navbar-form -->
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-user"></span>
+                  My Account
+                  <strong class="caret"></strong></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                        Settings
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="glyphicon glyphicon-refresh"></span>
+                        Update Profile
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                        Billing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="glyphicon glyphicon-off"></span>
+                        Sign out
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul><!-- end nav pull-right -->
+            </div><!-- end nav-collapse -->
+          </div><!-- end of width container -->
+        </div><!-- end container in navbar -->
+      </nav><!-- end navbar -->
+
+      <!-- Start of Main content -->
+      <div class="col-md-10 col-md-offset-1">
+        <!-- Call out header -->
+        <div class="row">
+          <div class="well card add-animation ">
+            <div class="page-header">
+              <h1>Creative Tim:&nbsp<small>Fully coded design resources for web developers</small></h1>
+            </div><!-- end page-header -->
+            <p class="lead">
+              <h3>
+                <small>
+                  UI Kits, Templates and Snippets, built with Bootstrap, that will speed up your front-end development.Join to access all our free items! 56,400 creatives are already here.
+                </small>
+              </h3>
+            </p>
+
+            <!-- Button to open modal -->
+            <a href="#myModal" class="btn btn-large btn-round btn-fill" id="alertMe" role="button" data-toggle="modal">Join Us</a>
+
+          </div>
+        </div><!-- End out call out header -->
+
+        <!-- Modal code -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modalwidth">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Register</h4>
+              </div>
+              <div class="modal-body">
+                <ul class="list-inline text-center">
+                  <li>
+                    <a href="#">
+                      <img src="img/fb.png" alt="..."/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/tweet.jpg" alt="..."/>
+                    </a>
+                  </li>
+                  <li class="pinterest">
+                    <a href="#">
+                      <img src="img/in.png" alt="..."/>
+                    </a>
+                  </li>
+                  <li class="googleplus">
+                    <a href="#" rel="publisher">
+                      <img src="img/rss.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+                <div class="division">
+                  <div class="line l"></div>
+                  <span>or</span>
+                  <div class="line r"></div>
+                </div>
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <div class=" col-lg-12">
+                      <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class=" form-group">
+                    <div class=" col-lg-12">
+                      <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class=" form-group">
+                    <div class=" col-lg-12">
+                      <input type="password" class="form-control" placeholder="Repeat Password">
+                    </div>
+                  </div>
+                  <div class=" form-group">
+                    <div class=" col-lg-12">
+                      <input type="submit" value="Create account" class="form-control btn btn-fill btn-primary">
+                    </div>
+                  </div>
+                  <div class=" form-group">
+                    <div class=" col-lg-12">
+                      <label class="checkbox checked">
+                        <span class="icons"><span class="first-icon fa fa-square-o"></span><span class="second-icon fa fa-check-square-o"></span></span><input type="checkbox" value="1" data-toggle="checkbox" name="subscribed" class="ct-info checkbox-subscribe" checked="">
+                        Subscribe me to the Newsletter
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <div class="forgot register-footer">
+                  <span>Already have an account?</span>
+                  <a href="#">Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End of madal code -->
+
+        <!-- Promotion content -->
+        <div class="row card add-animation ">
+          <div class="text-center" id="animationTest">
+            <h2>About Creative Tim</h2>
+            <p class="large">
+              <h3>
+                <small>
+                  Creative Tim is a startup based in Romania that creates design tools that make the web development process faster and easier. We love the web and care deeply for how users interact with a digital product. We power businesses and individuals to create better looking web projects around the world.
+                </small>
+              </h3>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card add-animation">
+                <img alt="..." src="img/pic10.jpg">
+              </div>
+              <div class="card add-animation">
+                <img alt="..." src="img/pic6.jpg">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card add-animation">
+                <img alt="..." src="img/pic11.jpg">
+              </div>
+              <div class="card add-animation">
+                <img alt="..." src="img/pic1.jpg">
+              </div>
+              <div class="card add-animation">
+                <img alt="..." src="img/pic9.jpg">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card add-animation">
+                <img alt="..." src="img/pic2.jpg">
+              </div>
+              <div class="card add-animation">
+                <img alt="..." src="img/pic4.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card add-animation">
+              <h3>
+                Create UI Tools
+              </h3>
+              <p>
+                We have created the tools that will help you in your next design project. From plugins to complex kits, we've got you covered in all areas regarding front-end development.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card add-animation">
+              <h3>
+                Share Freebies
+              </h3>
+              <p>
+                Everything that we used to create our platform can be downloaded for free and guess what, people love free stuff. People have already trusted and used them in thousands of sites.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card add-animation">
+              <h3>
+                Power Hackatons
+              </h3>
+              <p>
+                We've sponsored many hackatons around the world with the tools that they need to make awesome web applications. We like to help where we can, and our tools go hand in hand with startups.
+              </p>
+            </div>
+          </div>
+        </div><!-- end of promotions content -->
+
+        <!-- Hero content -->
+        <div class="row">
+          <div class="text-center card add-animation" id="animationTest">
+            <h2>
+              SEE THE GALLERY
+            </h2>
+            <p class="large card add-animation">
+              <h3>
+                <small>
+                  Built With Get Shit Done Pro.
+                </small>
+              </h3>
+            </p>
+          </div>
+        </div>
+
+        <div class="row card add-animation">
+          <div id="myCarousel" class="carousel slide gsdk-transition" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/slide1.jpg" alt="Awesome Image">
+              </div>
+              <div class="item">
+                <img src="img/slide2.jpg" alt="Awesome Image">
+              </div>
+              <div class="item">
+                <img src="img/slide3.jpg" alt="Awesome Image">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+          </div>
+        </div><!-- end of hero content -->
+        <br>
+        <hr>
+
+        <!-- Products content -->
+        <div class="row text-center card add-animation">
+          <div class="title add-animation animate">
+            <h2>Our Premium UI Tools</h2>
+            <p>Check out these UI Tools, they will speed up your development process for sure!<br><br></p>
+          </div>
+        </div>
+
+        <div class="row card add-animation ">
+          <div class="tabbable">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#tab1" data-toggle="tab">
+                  Light Bootstrap Dashboard PRO
+                </a>
+              </li>
+              <li>
+                <a href="#tab2" data-toggle="tab">
+                  Get Shit Done PRO
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <div class="col-md-6">
+                  <div class="card add-animation">
+                    <a class="img-class" href="#">
+                      <img src="img/opt_lbd_pro_thumbnail.jpg" style="margin-top: 10px;margin-left:-8px">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h3>
+                    Light Bootstrap Dashboard PRO
+                  </h3>
+                  <p>
+                    Light Bootstrap Dashboard PRO is a Bootstrap Admin Theme designed to look simple and beautiful. It comes integrated with a large number of plugins redesigned to fit in with the rest of the elements.
+                  </p>
+                  <a  class="btn btn-round btn-link">
+                    More Details
+                  </a>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab2">
+                <div class="col-md-6">
+                  <h3>
+                    Get Shit Done PRO
+                  </h3>
+                  <p>
+                    Get Shit Done Kit Pro comes with a huge number of customisable components. The components are not only designed to be pixel perfect and light but are also easy to use and match each other perfectly.
+                  </p>
+                  <a  class="btn btn-round btn-link">
+                    More Details
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <div class="card add-animation">
+                    <a class="img-class" href="#">
+                      <img src="img/opt_gsdp_thumbnail.jpg" style="margin-top: 10px;margin-left:-8px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End of products content -->
+
+        <!-- Memners content -->
+        <div class="row well add-animation animate">
+          <div class="text-center page-header">
+            <h2>
+              Meet our Team
+            </h2>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-6">
+              <div class="member card add-animation text-center">
+                <img class="img-circle" src="img/elena.jpg" width="200" style="border:3px solid;">
+                <div>
+                  <h3 class="big-text">
+                    Elena Conacel
+                  </h3>
+                  <br>
+                  <p class="small-text text-left">
+                    Elena takes care of growth, product development and partnerships. She is analytical, driven and adapts easily to new conditions, while trying to keep everyone on track.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="member card add-animation text-center">
+                <img class="img-circle" src="img/alex.png" width="200" style="border:3px solid;">
+                <div>
+                  <h3 class="big-text">
+                    Alex Paduraru
+                  </h3>
+                  <br>
+                  <p class="small-text text-left">Alex drives the technical strategy of the platform, customer support and brand. He is level-headed, smart and with a taste for simple, aesthetic design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of member content -->
+
+      </div><!-- end main content -->
+    </main><!-- end main -->
+
+    <!-- Start of footer -->
+    <footer>
+      <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-5">
+              <h4>
+                Connect with us
+              </h4>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Email" data-placeholder-xs="Email Address" data-placeholder-sm="Email" data-placeholder-md="Email Address" data-placeholder-lg="Enter your email"/>
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default">
+                      Join
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <ul class="list-inline list-social">
+                <li>
+                  <a href="#">
+                    <img src="img/fb.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/tweet.jpg" alt="" />
+                  </a>
+                </li>
+                <li class="pinterest">
+                  <a href="#">
+                    <img src="img/in.png" alt="" />
+                  </a>
+                </li>
+                <li class="googleplus">
+                  <a href="#" rel="publisher">
+                    <img src="img/rss.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col-xs-12 col-sm-3 footer-list">
+                <h4>
+                  Ace &amp; Tate
+                </h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Refer a friend</a></li>
+                  <li><a href="#">Home Try-On</a></li>
+                  <li><a href="#">Lookbook</a></li>
+                </ul>
+              </div>
+                <div class="col-xs-12 col-sm-3 footer-list footer-lists-right">
+                  <h4>
+                    Need help?
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 footer-list">
+                  <h4>Country</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#">
+                        Germany
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Netherlands
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        United Kingdom
+                      </a>
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon glyphicon-globe" aria-hidden="true"></span>
+                      <a href="#">
+                        International
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 footer-list">
+                  <h4>
+                    Collections
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Women's Glasses</a></li>
+                    <li><a href="#">Women's Sunglasses</a></li>
+                    <li><a href="#">Men's Glasses</a></li>
+                    <li><a href="#">Men's Sunglasses</a></li>
+                    <li><a href="#">Autumn/Winter '15 collection</a></li>
+                    <li><a href="#">Giftcards</a></li>
+                    <li><a href="#">Giveaway</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="">
+                  <p class="text-center">
+                    <small >
+                      © 2015 Ace &amp; Tate All rights reserved. <br>
+                      Privacy Policy
+                      Terms and Conditions
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer><!-- end footer -->
+
+        <!-- All Javascript at the bottom of the page for faster page loading -->
+
+        <!-- jQuery JS-->
+        <script src="includes/js/jquery-1.11.3.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- way points -->
+        <script src="includes/js/jquery.waypoints.min.js"></script>
+
+        <!-- Custom JS -->
+        <script src="includes/js/script.js"></script>
+
+      </body>
+      </html>

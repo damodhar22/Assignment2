@@ -12,6 +12,7 @@ body {
 }
 #searchInput {
   width: 150px;
+  display: inline-block;
 }
 .navbar {
   background-color: white;
@@ -61,10 +62,16 @@ img {
   vertical-align: middle;
   width: 100%;
 }
+.card {
+  margin-bottom: 20px;
+}
 @media (min-width: 768px){
   .card.add-animation.animate {
     opacity: 1;
     transition: all 0.7s ease-out 0.3s;
+  }
+  .card {
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 768px){
